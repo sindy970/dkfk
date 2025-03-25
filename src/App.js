@@ -1,5 +1,6 @@
 import React from "react";
 import Calendar from "./pages/Calendar";
+import Daytimer from "./pages/Daytimer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
       <div>
         <Calendar />
+        <Daytimer />
       </div>
     </>
   );
