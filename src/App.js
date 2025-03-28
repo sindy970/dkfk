@@ -1,6 +1,8 @@
 import React from "react";
 import Calendar from "./pages/Calendar";
 import Daytimer from "./pages/Daytimer";
+import main from "./imgs/main-min.jpg";
+import ring from "./imgs/ring-min.png";
 
 
 function App() {
@@ -14,10 +16,44 @@ function App() {
 
   return(
     <>
-      <div>
+          <div className="title">
+            <h1 className="mt20 yel">we're getting</h1>
+            <h1 className="mt20 yel">married</h1>
+          </div>
+          <div className="mt20 main-img-area">
+              <div className="img-border">
+                <img className="main-img" src={main}/>
+              </div>
+              <div className="mt10 main-text-area">
+                  <div className="main-text">
+                    <h1>신랑</h1>
+                  </div>
+                <img className="text-img" src={ring} />
+                  <div className="main-text">
+                    <h1>조아라</h1>
+                  </div>
+              </div>
+          </div>
+
+        <div className="mt30 invitation-area">
+            <h1 className="mt20 title-content">INVITATION</h1>
+            <h3 className="mt10"> 문구</h3>
+            <h3 className="mt10"> 문구</h3>
+            <h3 className="mt10"> 문구</h3>
+            <h3 className="mt10"> 문구</h3>
+            <h3 className="mt10"> 문구</h3>
+            <h3 className="mt10"> 문구</h3>
+        </div>
+
+
+
+
+      <div className="mt30">
         <Calendar />
-        <Daytimer />
       </div>
+        <div className="mt30">
+            <Daytimer />
+        </div>
     </>
   );
 }

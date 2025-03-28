@@ -94,11 +94,56 @@ h5{
   font-size: 14px;
 }
 h6{
-  font-size: 12px;
+  font-size: 10px;
+}
+
+/* -------------------------------------------- */
+
+/* main 영역 */
+.title{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img-area{
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-border{
+  border: #DBDBDB solid 5px;
+  position: relative;
+  background-color: #DBDBDB;
+  width: 90%;
+  border-radius: 50% 50% 0% 0%;
+}
+
+.main-img{
+  border-radius: 50% 50% 0% 0%;
+  object-fit: cover;
+}
+
+.main-text-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text{
+  display: block;
+}
+
+.text-img{
+  margin: 0;
+  width: 35px;
+  height: 35px;
 }
 
 
-/* -------------------------------------------- */
 /* calendar 반응형 적용 */
 .calendar-area{
   display: flex;
