@@ -1,6 +1,7 @@
 import React from "react";
 import Calendar from "./pages/Calendar";
 import Daytimer from "./pages/Daytimer";
+import Map from "./pages/Map";
 import main from "./imgs/main-min.jpg";
 import ring from "./imgs/ring-min.png";
 
@@ -36,7 +37,7 @@ function App() {
           </div>
 
         <div className="mt30 invitation-area">
-            <h1 className="mt20 title-content">INVITATION</h1>
+            <h1 className="mt20 yel title-content">INVITATION</h1>
             <h3 className="mt10"> 문구</h3>
             <h3 className="mt10"> 문구</h3>
             <h3 className="mt10"> 문구</h3>
@@ -45,6 +46,13 @@ function App() {
             <h3 className="mt10"> 문구</h3>
         </div>
 
+        <div className="mt30 map-area">
+            <h1 className="mt20 yel title-content">예식 안내</h1>
+            <h4 className="mt10 map-text">2025년 5월 25일 일요일 오후1시</h4>
+            <h4 className="mt10 map-text">웨스턴펠리스 웨딩홀 펠리스홀</h4>
+            <img className="map-area"/>
+            <Map />
+        </div>
 
 
 
