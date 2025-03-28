@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dkfk/static/css/main.583d31df.css",
+    "main.js": "/dkfk/static/js/main.d6585533.js",
+    "static/js/453.b0a50d23.chunk.js": "/dkfk/static/js/453.b0a50d23.chunk.js",
+    "index.html": "/dkfk/index.html",
+    "main.583d31df.css.map": "/dkfk/static/css/main.583d31df.css.map",
+    "main.d6585533.js.map": "/dkfk/static/js/main.d6585533.js.map",
+    "453.b0a50d23.chunk.js.map": "/dkfk/static/js/453.b0a50d23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.583d31df.css",
+    "static/js/main.d6585533.js"
+  ]
+}
