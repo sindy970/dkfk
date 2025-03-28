@@ -3,12 +3,12 @@
 const Calendar = () => {
     return (
       <>
-          <div>
-              <h1 className="mt10 yel">Calendar</h1>
-              <h1 className="mt20 yel">5월</h1>
-          </div>
-          <div className="mt30 calendar-area">
-              <table className="calendar-table">
+          <div className="calendar-area">
+              <div className="calendar-text">
+                  <h2 className="mt10 yel">Calendar</h2>
+                  <h2 className="mt10 yel">5월</h2>
+              </div>
+              <table className="mt20 calendar-table">
                   <thead>
                   <tr>
                       <td className="red">일</td>
@@ -22,10 +22,10 @@ const Calendar = () => {
                   </thead>
                   <tbody>
                   <tr>
-                      <td className="grey">27</td>
-                      <td className="grey">28</td>
-                      <td className="grey">29</td>
-                      <td className="grey">30</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                       <td>01</td>
                       <td>02</td>
                       <td>03</td>
